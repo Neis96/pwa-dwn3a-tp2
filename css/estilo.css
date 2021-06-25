@@ -280,11 +280,10 @@ footer {
 }
 
 .score {
-    padding-left: 1em;
+    padding-left: 1.5em;
     background-image: url("../res/img/icon/estrella.svg");
-    background-size: 2em;
+    background-size: 1em;
     background-repeat: no-repeat;
-    background-position: center;
 }
 
 @media only screen and (min-width:769px) {
