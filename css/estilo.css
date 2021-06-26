@@ -286,9 +286,17 @@ footer {
     background-repeat: no-repeat;
 }
 
-@media only screen and (min-width:769px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .intro::after {
 
+        height: 550px;
 
+        /* background-size: 40%; */
+
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1920px) {
 
     /*----------- --------------  */
 
@@ -302,13 +310,11 @@ footer {
     }
 
     .intro::after {
-        content: " ";
-        display: block;
         height: 550px;
         background-image: url(../res/img/otro-intro.png);
-        background-repeat: no-repeat;
+
         background-size: 30%;
-        background-position: center bottom;
+
     }
 
 }
