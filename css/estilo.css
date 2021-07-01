@@ -87,6 +87,9 @@ header {
     color: var(--blanco);
 }
 
+nav div ul li a {
+    font-family: "Montserrat-Bold";
+}
 
 /* ----------- MAIN ---------------*/
 h1 {
