@@ -10,6 +10,7 @@ const precache = [
 './index.html',
 './offline.html',
 './service-worker.js',
+'./manifest.webmanifest',
   //css
 // './css/bootstrap-grid.css',
 // './css/bootstrap-grid.css.map',
